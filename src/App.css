@@ -14,14 +14,44 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(6px + 2vmin);
+  font-family: sans-serif;
+  font-weight: 100;
+  color: rgb(55, 85, 136);
+  cursor: default;
+}
+
+.App-button {
+  background-color: rgb(55, 85, 136);
+  font-size: calc(4px + 2vmin);
+  font-weight: bold;
+  margin: 3vh;
+  min-height: 6vh;
+  /* min-width: 20vw; */
+  padding-right: 3%;
+  padding-left: 3%;
+  border-radius: 3vh;
+  border-width: 0;
+  color: #ffffff;
+  justify-self: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Social-button {
+  background-color: rgb(231, 231, 231);
+  min-height: 6vh;
+  min-width: 6vh;
+  border-width: 0;
+  margin: 12px;
+  border-radius: 3vh;
+  cursor: pointer;
 }
 
 .App-link {
