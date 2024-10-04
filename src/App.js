@@ -15,7 +15,7 @@ function App() {
     const linkedInUrl = "https://www.linkedin.com/in/khangerel-ganzorig/";
     const githubUrl = "https://github.com/Khangerel";
     const resumeUrl =
-        "https://resume-ganzokhan.s3.us-east-2.amazonaws.com/Khangerel_Ganzorig_Resume.pdf";
+        "https://resume-ganzokhan.s3.us-east-2.amazonaws.com/Khangerel_Ganzorig-Resume.pdf";
     const email = "ganzokhan@gmail.com";
     return (
         <div className="App">
@@ -56,7 +56,7 @@ function App() {
                             className="Social-button"
                             onClick={() => window.open(linkedInUrl, "_blank")}
                         >
-                            <BsLinkedin size={20} />
+                            <BsLinkedin size={"2.5vh"} color="rgb(55, 85, 136)"/>
                         </button>
                     </Col>
                     <Col key={2} xs={6} md={4} lg={3}>
@@ -64,7 +64,7 @@ function App() {
                             className="Social-button"
                             onClick={() => window.open(githubUrl, "_blank")}
                         >
-                            <BsGithub size={20} />
+                            <BsGithub size={"2.5vh"} color="rgb(55, 85, 136)"/>
                         </button>
                     </Col>
                     <Col key={3} xs={6} md={4} lg={3}>
@@ -72,7 +72,7 @@ function App() {
                             className="Social-button"
                             onClick={() => window.open(`mailto:${email}`)}
                         >
-                            <BsMailbox2 size={20} />
+                            <BsMailbox2 size={"2.5vh"} color="rgb(55, 85, 136)"/>
                         </button>
                     </Col>
                 </Row>
