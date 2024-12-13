@@ -15,7 +15,7 @@ function App() {
     const linkedInUrl = "https://www.linkedin.com/in/khangerel-ganzorig/";
     const githubUrl = "https://github.com/Khangerel";
     const resumeUrl =
-        "https://resume-ganzokhan.s3.us-east-2.amazonaws.com/Khangerel_Ganzorig-Resume.pdf";
+        "https://resume-ganzokhan.s3.us-east-2.amazonaws.com/Khangerel_Ganzorig_resume-e.pdf";
     const email = "ganzokhan@gmail.com";
     return (
         <div className="App">
